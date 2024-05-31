@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/techreact/static/css/main.428a83d2.css",
+    "main.js": "/techreact/static/js/main.3ac712b5.js",
+    "static/js/453.17459999.chunk.js": "/techreact/static/js/453.17459999.chunk.js",
+    "index.html": "/techreact/index.html",
+    "main.428a83d2.css.map": "/techreact/static/css/main.428a83d2.css.map",
+    "main.3ac712b5.js.map": "/techreact/static/js/main.3ac712b5.js.map",
+    "453.17459999.chunk.js.map": "/techreact/static/js/453.17459999.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.428a83d2.css",
+    "static/js/main.3ac712b5.js"
+  ]
+}
