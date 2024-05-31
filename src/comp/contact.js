@@ -50,7 +50,9 @@ const Contact = () => {
     <>
     <div className='contact'>
         <div className='container'>
-            <div className='form'>
+            <div className='row'>
+                <div className='col-md-4'></div>
+                <div className='col-md-4'><div className='form'>
                 <h2>#contact us</h2>
                 <form method='POST'>
                     <div className='box'>
@@ -87,7 +89,10 @@ const Contact = () => {
                     </div>
                     <button type='sublit' onClick={send}>Send</button>
                 </form>
+            </div></div>
+                <div className='col-md-4'></div>
             </div>
+            
         </div>
     </div>
     </>

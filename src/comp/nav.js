@@ -5,6 +5,7 @@ import { FiLogIn } from 'react-icons/fi';
 import { CiLogout, CiUser} from 'react-icons/ci';
 import { useAuth0 } from "@auth0/auth0-react"
 import {Link} from 'react-router-dom';
+
 import './nav.css'
 const Nav = ({search, setSearch, searchproduct}) => {
   const { loginWithRedirect, logout, user, isAuthenticated} = useAuth0();
@@ -26,7 +27,7 @@ const Nav = ({search, setSearch, searchproduct}) => {
         <nav class="navbar vt-mid navbar-expand-lg navbar-light">
   <div class="container-fluid">
      <div className='logo'>
-            <img src='image/tw.png' alt='logo'></img>
+            <img src='/image/tw.png' alt='logo'></img>
           </div>
 <div className="navbar-right">
      <div className='search_box'>

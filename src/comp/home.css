@@ -839,4 +839,18 @@ ul.featured-product .detail {
         font-size: 16px;
        
     }
+
+
+    .home .product_type {
+        padding:0;
+      
+    }
+    .home .trending {
+        padding: 0;
+       
+    }
+    .home .top_banner {
+    
+        padding:0;
+    }
 }

@@ -258,10 +258,10 @@ const Home = ({addtocart}) => {
               <div className='col-md-3'>
                 <div className='left_box'>
                 <div className='box'>
-                  <img src='image/Multi-Banner-1.avif' alt='banner'></img>
+                  <img src='./image/Multi-Banner-1.avif' alt='banner'></img>
                 </div>
                 <div className='box'>
-                  <img src='image/Multi-Banner-2.avif' alt='banner'></img>
+                  <img src='./image/Multi-Banner-2.avif' alt='banner'></img>
                 </div>
               </div>
               </div>
@@ -270,17 +270,17 @@ const Home = ({addtocart}) => {
                 <div className='top'>
                   <div className='row'>
                     <div className='col-md-8'>
-                    <img src='image/Multi-Banner-3.webp' alt=''></img>
+                    <img src='./image/Multi-Banner-3.webp' alt=''></img>
                     </div>
                     <div className='col-md-4'>
-                    <img src='image/Multi-Banner-4.avif' alt=''></img>
+                    <img src='./image/Multi-Banner-4.avif' alt=''></img>
                     </div>
                   </div>  
                 </div>
                 <div className='bottom'>
                   <div className='row'>
                     <div className='col-md-12'>
-                    <img src='image/Multi-Banner-5.webp' alt=''></img>
+                    <img src='./image/Multi-Banner-5.webp' alt=''></img>
                     </div>
                   </div>
                 </div>
