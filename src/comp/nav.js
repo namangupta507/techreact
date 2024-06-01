@@ -27,7 +27,7 @@ const Nav = ({search, setSearch, searchproduct}) => {
         <nav class="navbar vt-mid navbar-expand-lg navbar-light">
   <div class="container-fluid">
      <div className='logo'>
-            <img src='/image/tw.png' alt='logo'></img>
+            <img src='image/tw.png' alt='logo'></img>
           </div>
 <div className="navbar-right">
      <div className='search_box'>

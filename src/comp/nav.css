@@ -9,22 +9,22 @@
 {
     width: 100%;
 }
-.header .top_header
-{
+.header .top_header {
     max-width: 100%;
     display: flex;
     padding: 10px 10px;
     background: #f6f7f8;
+    align-items: center;
+    gap: 20px;
 }
-.header .top_header .icon
-{
+.header .top_header .icon {
     margin-left: 20px;
     color: #ababab;
-    font-size: 19px;
+    font-size: 25px;
 }
 .header .top_header .info p
 {
-    margin-left: 10px;
+    margin:0 !important;
     color: #8a8a8a;
 }
 .header .mid_header {
@@ -279,6 +279,6 @@ button.vt-inner_button {
 .header .mid_header .logo img {
     cursor: pointer;
     object-fit: cover;
-    width: 110px;
+    width: 90px;
 }
 }

@@ -111,17 +111,22 @@ const Cart = ({ cart, setCart }) => {
 
   return (
     <div className='cart'>
+      <div className='container'>
       <h3>#cart</h3>
+      </div>
       {cart.length === 0 ? (
         <div className='empty_cart'>
           <h2>Your Shopping cart is empty</h2>
-          <Link to='/shop'><button>Shop Now</button></Link>
+        
+          <Link to='/shop' className='shop_button'>Shop Now</Link>
+         
         </div>
       ) : (
         <>
           <div className='container'>
             {cart.map((curElm) => (
-              <div className='box' key={curElm.id}>
+              <>
+              {/* <div className='box' key={curElm.id}>
                 <div className='img_box'>
                   <img src={curElm.image} alt='' />
                 </div>
@@ -141,7 +146,39 @@ const Cart = ({ cart, setCart }) => {
                     <li onClick={() => removeproduct(curElm)}><AiOutlineClose /></li>
                   </div>
                 </div>
+              </div> */}
+
+        <div className='box' key={curElm.id}>
+          <div className='row'>
+            <div className='col-md-3'>  <div className='img_box'>
+                  <img src={curElm.image} alt='' />
+                </div></div>
+              <div className='col-md-4'> 
+               <div className='detail'>
+                  <div className='info'>
+                    <h4>{curElm.cat}</h4>
+                    <h3>{curElm.Name}</h3>
+                    <p>Price: ${curElm.price}</p>
+                    <p>Total: ${curElm.price * curElm.qty}</p>
+                  </div>
+                  <div className='quantity'>
+                    <button onClick={() => incqty(curElm)}>+</button>
+                    <input type='number' value={curElm.qty} readOnly />
+                    <button onClick={() => decqty(curElm)}>-</button>
+                  </div>
+                  <div className='icon'>
+                    <li onClick={() => removeproduct(curElm)}><AiOutlineClose /></li>
+                  </div>
+                </div> </div>
+                <div className='col-md-5'></div>
+             
+           
+          </div>
+               
+              
               </div>
+              </>
+
             ))}
           </div>
           <div className='bottom'>
