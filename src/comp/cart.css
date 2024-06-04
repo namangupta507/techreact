@@ -188,3 +188,30 @@
     height: 250px;
     object-fit: contain;
 }
+
+.vt-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .cart .container .box
+    {
+       
+        height: 100%;
+       
+    }
+
+
+    .cart .container .box .detail {
+        display: block;
+       
+    }
+    .vt-buttons {
+       
+        margin-bottom: 10px;
+    }
+
+}

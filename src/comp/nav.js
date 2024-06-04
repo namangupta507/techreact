@@ -9,6 +9,9 @@ import {Link} from 'react-router-dom';
 import './nav.css'
 const Nav = ({search, setSearch, searchproduct}) => {
   const { loginWithRedirect, logout, user, isAuthenticated} = useAuth0();
+
+
+  
   return (
     <>
     <div className='header'>
@@ -24,7 +27,7 @@ const Nav = ({search, setSearch, searchproduct}) => {
 
 
         <div className='mid_header'>
-        <nav class="navbar vt-mid navbar-expand-lg navbar-light">
+        <nav className="navbar vt-mid navbar-expand-lg navbar-light">
   <div class="container-fluid">
      <div className='logo'>
             <img src='image/tw.png' alt='logo'></img>
@@ -82,6 +85,7 @@ const Nav = ({search, setSearch, searchproduct}) => {
                   <CiUser />
                 </div>
                 <div className='info'>
+                 
                   <h2>{user.name}</h2>
                   <p>{user.email}</p>
                 </div>
@@ -97,11 +101,12 @@ const Nav = ({search, setSearch, searchproduct}) => {
                 </>
               }
             </div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       {/* <span class="navbar-toggler-icon"></span> */}
       <span className='icon-bar'></span>
       <span className='icon-bar'></span>
       <span className='icon-bar'></span>
+      
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav vt-navbar me-auto mb-2 mb-lg-0">

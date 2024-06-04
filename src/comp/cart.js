@@ -161,6 +161,7 @@ const Cart = ({ cart, setCart }) => {
                     <p>Price: ${curElm.price}</p>
                     <p>Total: ${curElm.price * curElm.qty}</p>
                   </div>
+                  <div className='vt-buttons'>
                   <div className='quantity'>
                     <button onClick={() => incqty(curElm)}>+</button>
                     <input type='number' value={curElm.qty} readOnly />
@@ -169,7 +170,9 @@ const Cart = ({ cart, setCart }) => {
                   <div className='icon'>
                     <li onClick={() => removeproduct(curElm)}><AiOutlineClose /></li>
                   </div>
-                </div> </div>
+                </div>
+                 </div>
+                </div>
                 <div className='col-md-5'></div>
              
            
